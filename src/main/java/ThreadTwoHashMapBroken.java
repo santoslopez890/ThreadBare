@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class ThreadTwoHashMapBroken extends Thread {
+    //Got and exception instantly but didnt the next time
     HashMap<String, Thread> threadMap;
 
     public ThreadTwoHashMapBroken(String name) {
