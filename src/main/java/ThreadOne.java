@@ -11,6 +11,7 @@ public class ThreadOne implements Runnable {
     }
 
     public void run() {
+        //This makes it so a thread can start
         try {
             for (int i = 5; i > 0; i--) {
                 System.out.println("Thread " + name + ": " + i);
